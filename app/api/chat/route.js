@@ -1,6 +1,6 @@
-import {NextResponse} from 'next/server'
-import {Pinecone} from '@pinecone-database/pinecone'
-import { GoogleGenerativeAI } from '@google/generative-ai'
+import {NextResponse} from 'next/server';
+import {Pinecone} from '@pinecone-database/pinecone';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const systemPrompt =
 `
@@ -48,14 +48,14 @@ For each query, structure your response as follows:
 export async function POST(req){
     const data = await req.json()
         const pc = new Pinecone({
-            apiKey: process.env.PINECONE_API_KEY
+            apiKey: process.env.PINECONE_API_KEY,
         })
     const index = pc.index('rag1').namespace('ns1')
-    const genai = new  GoogleGenerativeAI(process.env.GEMINI_API_KEY)
+    const genai = new  GoogleGenerativeAI({apiKey: process.env.GEMINI_API_KEY});
 
     const text = data[data.length-1].content
     const embedding = await genai.embed_content({
-        content: review['review'], 
+        content: text, 
         model: "models/text-embedding-004",
         encoding_format: 'float'
     })
@@ -63,11 +63,12 @@ export async function POST(req){
     const results = await index.query({
         topK: 3,
         includeMetadata: true,
-        vector: embedding.data[0].embedding
+        vector: embedding.data[0].embedding,
     })
     let resultString = '\n\nReturned results from vector db (done automatically):'
     results.matches.forEach((match) =>{
         resultString +=`
+        Returned Results:
         Professor: ${match.id}
         Review: ${match.metadata.stars}
         Subject: ${match.metadata.subject}
@@ -107,6 +108,7 @@ export async function POST(req){
             }
         },
     })
+    
 
     return new NextResponse(stream)
 }
