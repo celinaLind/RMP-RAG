@@ -1,125 +1,274 @@
 {
-    "reviews": [
+  "reviews": [
       {
-        "professor": "Dr. John Smith",
-        "subject": "Economics",
-        "stars": 4,
-        "review": "Dr. Smith is knowledgeable and explains concepts clearly, but the exams are tough."
+          "professor": "John Smith",
+          "subject": "Physics",
+          "stars": 5,
+          "review": "The professor was engaging and made the material easy to understand."
       },
       {
-        "professor": "Prof. Emily Johnson",
-        "subject": "Psychology",
-        "stars": 5,
-        "review": "Prof. Johnson is amazing! Her lectures are engaging, and she's very approachable."
+          "professor": "Emily Johnson",
+          "subject": "Economics",
+          "stars": 4,
+          "review": "Challenging course, but the professor was very knowledgeable."
       },
       {
-        "professor": "Dr. Mark Thompson",
-        "subject": "Mathematics",
-        "stars": 3,
-        "review": "Dr. Thompson knows his stuff, but his teaching style is a bit dry."
+          "professor": "Michael Brown",
+          "subject": "Chemistry",
+          "stars": 3,
+          "review": "The professor's lectures were very informative."
       },
       {
-        "professor": "Prof. Sarah Lee",
-        "subject": "Biology",
-        "stars": 5,
-        "review": "Prof. Lee is excellent! She makes complex topics easy to understand."
+          "professor": "Sarah Davis",
+          "subject": "History",
+          "stars": 5,
+          "review": "Great teaching style, very interactive."
       },
       {
-        "professor": "Dr. Alan Brown",
-        "subject": "History",
-        "stars": 2,
-        "review": "Dr. Brown is a tough grader and expects a lot from students."
+          "professor": "David Taylor",
+          "subject": "Biology",
+          "stars": 2,
+          "review": "Material was difficult to follow at times."
       },
       {
-        "professor": "Prof. Lisa White",
-        "subject": "Chemistry",
-        "stars": 4,
-        "review": "Prof. White is great, but the labs can be overwhelming."
+          "professor": "Jessica White",
+          "subject": "Philosophy",
+          "stars": 4,
+          "review": "Very thought-provoking and engaging lectures."
       },
       {
-        "professor": "Dr. James Green",
-        "subject": "Physics",
-        "stars": 5,
-        "review": "Dr. Green is fantastic! He explains everything so well."
+          "professor": "James Martinez",
+          "subject": "Sociology",
+          "stars": 5,
+          "review": "Professor made the subject very interesting."
       },
       {
-        "professor": "Prof. Amanda Davis",
-        "subject": "Literature",
-        "stars": 4,
-        "review": "Prof. Davis is passionate about literature, but the reading load is heavy."
+          "professor": "Laura Anderson",
+          "subject": "Mathematics",
+          "stars": 3,
+          "review": "The course was tough, but the professor was helpful."
       },
       {
-        "professor": "Dr. Robert Miller",
-        "subject": "Computer Science",
-        "stars": 3,
-        "review": "Dr. Miller is knowledgeable, but his lectures can be hard to follow."
+          "professor": "Robert Clark",
+          "subject": "Computer Science",
+          "stars": 4,
+          "review": "Good balance of theory and practical examples."
       },
       {
-        "professor": "Prof. Laura Wilson",
-        "subject": "Sociology",
-        "stars": 5,
-        "review": "Prof. Wilson is amazing! She really cares about her students."
+          "professor": "Karen Lewis",
+          "subject": "English Literature",
+          "stars": 2,
+          "review": "Lectures could have been more engaging."
       },
       {
-        "professor": "Dr. William Harris",
-        "subject": "Political Science",
-        "stars": 2,
-        "review": "Dr. Harris is strict and expects a lot from his students."
+          "professor": "David Walker",
+          "subject": "Physics",
+          "stars": 5,
+          "review": "Excellent professor, very clear explanations."
       },
       {
-        "professor": "Prof. Nancy Clark",
-        "subject": "Philosophy",
-        "stars": 4,
-        "review": "Prof. Clark is very insightful, but the material is challenging."
+          "professor": "Jessica Hall",
+          "subject": "Economics",
+          "stars": 3,
+          "review": "Course content was a bit dry, but well-organized."
       },
       {
-        "professor": "Dr. Michael Lewis",
-        "subject": "Statistics",
-        "stars": 3,
-        "review": "Dr. Lewis is okay, but the lectures can be monotonous."
+          "professor": "Michael Young",
+          "subject": "Chemistry",
+          "stars": 4,
+          "review": "The professor was very approachable and helpful."
       },
       {
-        "professor": "Prof. Karen Young",
-        "subject": "Art History",
-        "stars": 5,
-        "review": "Prof. Young is fantastic! Her passion for art is contagious."
+          "professor": "Sarah King",
+          "subject": "History",
+          "stars": 5,
+          "review": "Loved the class, very engaging professor."
       },
       {
-        "professor": "Dr. Kevin Adams",
-        "subject": "Engineering",
-        "stars": 4,
-        "review": "Dr. Adams is a great professor, but his exams are difficult."
+          "professor": "James Wright",
+          "subject": "Biology",
+          "stars": 3,
+          "review": "Good course, but the professor was sometimes unclear."
       },
       {
-        "professor": "Prof. Rebecca Martin",
-        "subject": "Business Management",
-        "stars": 5,
-        "review": "Prof. Martin is excellent! She provides real-world examples that are very helpful."
+          "tutor": "John Harris",
+          "subject": "Algebra",
+          "stars": 4,
+          "review": "Very helpful tutor, explained concepts clearly."
       },
       {
-        "professor": "Dr. Charles King",
-        "subject": "Environmental Science",
-        "stars": 3,
-        "review": "Dr. King is knowledgeable, but his lectures can be a bit boring."
+          "tutor": "Emily Martinez",
+          "subject": "Calculus",
+          "stars": 5,
+          "review": "The tutor was patient and helped me improve my grades significantly."
       },
       {
-        "professor": "Prof. Olivia Scott",
-        "subject": "Anthropology",
-        "stars": 4,
-        "review": "Prof. Scott is great, but the material can be dense."
+          "tutor": "Michael Clark",
+          "subject": "Statistics",
+          "stars": 3,
+          "review": "Good tutor, but sometimes hard to follow."
       },
       {
-        "professor": "Dr. Richard Perez",
-        "subject": "Psychology",
-        "stars": 5,
-        "review": "Dr. Perez is fantastic! His classes are interesting and engaging."
+          "tutor": "Sarah Lewis",
+          "subject": "Physics",
+          "stars": 5,
+          "review": "The tutor provided great feedback on my assignments."
       },
       {
-        "professor": "Prof. Patricia Collins",
-        "subject": "Economics",
-        "stars": 2,
-        "review": "Prof. Collins is a tough grader and her lectures can be confusing."
+          "tutor": "David White",
+          "subject": "Chemistry",
+          "stars": 4,
+          "review": "Made complex topics easy to understand."
+      },
+      {
+          "tutor": "Jessica Harris",
+          "subject": "Biology",
+          "stars": 3,
+          "review": "The tutor's sessions were very productive."
+      },
+      {
+          "tutor": "James Robinson",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Great tutor, very knowledgeable in the subject."
+      },
+      {
+          "tutor": "Laura Martinez",
+          "subject": "English",
+          "stars": 4,
+          "review": "Helped me improve my writing skills a lot."
+      },
+      {
+          "tutor": "Robert King",
+          "subject": "Writing",
+          "stars": 3,
+          "review": "The tutor was good but sometimes rushed."
+      },
+      {
+          "tutor": "Karen Davis",
+          "subject": "History",
+          "stars": 5,
+          "review": "Very engaging and helpful tutor."
+      },
+      {
+          "tutor": "David Walker",
+          "subject": "Calculus",
+          "stars": 4,
+          "review": "Great at breaking down difficult problems."
+      },
+      {
+          "tutor": "Jessica Hall",
+          "subject": "Algebra",
+          "stars": 5,
+          "review": "Very patient and thorough tutor."
+      },
+      {
+          "tutor": "Michael Wright",
+          "subject": "Statistics",
+          "stars": 4,
+          "review": "Good at explaining complex concepts."
+      },
+      {
+          "tutor": "Sarah Taylor",
+          "subject": "Biology",
+          "stars": 3,
+          "review": "The tutor was helpful, but sometimes unclear."
+      },
+      {
+          "tutor": "James Young",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Helped me a lot with my coding assignments."
+      },
+      {
+          "counselor": "John Harris",
+          "subject": "Career Counseling",
+          "stars": 5,
+          "review": "Provided excellent guidance and support throughout the semester."
+      },
+      {
+          "counselor": "Emily Martinez",
+          "subject": "Academic Guidance",
+          "stars": 4,
+          "review": "Very helpful with course selection and planning."
+      },
+      {
+          "counselor": "Michael Clark",
+          "subject": "Mental Health",
+          "stars": 5,
+          "review": "Great counselor, really helped me with my stress management."
+      },
+      {
+          "counselor": "Sarah Lewis",
+          "subject": "Study Skills",
+          "stars": 4,
+          "review": "Provided very useful tips for studying and time management."
+      },
+      {
+          "counselor": "David White",
+          "subject": "Time Management",
+          "stars": 3,
+          "review": "Good advice, but sometimes hard to implement."
+      },
+      {
+          "counselor": "Jessica Harris",
+          "subject": "Stress Management",
+          "stars": 5,
+          "review": "The counselor was very empathetic and supportive."
+      },
+      {
+          "counselor": "James Robinson",
+          "subject": "College Applications",
+          "stars": 4,
+          "review": "Great help with my college application process."
+      },
+      {
+          "counselor": "Laura Martinez",
+          "subject": "Personal Development",
+          "stars": 5,
+          "review": "The counselor provided excellent advice for personal growth."
+      },
+      {
+          "counselor": "Robert King",
+          "subject": "Conflict Resolution",
+          "stars": 3,
+          "review": "Good strategies for resolving conflicts, but could use more examples."
+      },
+      {
+          "counselor": "Karen Davis",
+          "subject": "Goal Setting",
+          "stars": 4,
+          "review": "Helped me set clear and achievable goals."
+      },
+      {
+          "counselor": "David Walker",
+          "subject": "Career Counseling",
+          "stars": 5,
+          "review": "Very insightful and supportive counselor."
+      },
+      {
+          "counselor": "Jessica Hall",
+          "subject": "Academic Guidance",
+          "stars": 4,
+          "review": "Provided great advice on course selection."
+      },
+      {
+          "counselor": "Michael Wright",
+          "subject": "Mental Health",
+          "stars": 5,
+          "review": "Very supportive and understanding counselor."
+      },
+      {
+          "counselor": "Sarah Taylor",
+          "subject": "Study Skills",
+          "stars": 3,
+          "review": "The tips were good, but not always applicable to my situation."
+      },
+      {
+          "counselor": "James Young",
+          "subject": "Time Management",
+          "stars": 4,
+          "review": "Good advice on how to manage time effectively."
       }
-    ]
-  }
-  
+  ]
+}
