@@ -55,7 +55,7 @@ export default function Home() {
         <Box
           width="700px"
           height="500px"
-          margin="0 -10%"
+          // margin="0 -10%"
           display="flex"
           justifyContent="center"
           alignItems="center"
