@@ -1,0 +1,26 @@
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100%; /* Full height of the parent container */
+  width: 100%; /* Full width of the parent container */
+  overflow-y: hidden; /* Enable vertical scrolling */
+  position: relative;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 24px;
+
+.carouselItem {
+  flex-shrink: 0;
+  width: 80%; /* Adjust width to resize images */
+  max-width: 500px; /* Maximum width for images */
+  margin-bottom: 3rem;
+  scroll-snap-align: start;
+}
+
+.carouselItem img {
+  width: 100%; /* Scale width to container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio while covering container */
+}
+}
